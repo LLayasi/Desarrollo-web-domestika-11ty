@@ -1,0 +1,44 @@
+html {
+
+  /*Familias tipográficas*/
+
+  --font-1: "Quicksand", sans- serif;
+  --font-2: "Roboto Mono", sans- serif;
+  /* Variables tipográficas */
+  --text-2xs: 10px;
+  --text-xs: 12px;
+  --text-s: 14px;
+  --text-m: 16px;
+  --text-l: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+  --text-6xl: 64px;
+
+  /* Escala aplicada */
+  --text-caption: var(--text-xs);
+  --text-note: var(--text-x);
+  --text-base: var(--text-m);
+  --text-subheader: var(--text-2xl);
+  --text-title: var(--text-3xl);
+  --text-headline: var(--text-4xl);
+  --text-display: var(--text-5xl);
+  --text-jumbo: var(--text-6xl);
+}
+
+@media (max-width: 700) {
+  html {
+    --text-caption: 12;
+    --text-note: 14px;
+    --text-base: 16px;
+    --text-subheader: 20px;
+    --text-title: 24px;
+    --text-headline: 36px;
+    --text-display: 48px;
+    --text-jumbo: 60px;
+
+
+  }
+}

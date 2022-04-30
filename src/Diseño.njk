@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Diseño
+eleventyNavigation:
+  key: diseño
+  title: Fotografía y Diseño
+  order: 2
+---
+
+<div class="col-12">
+  <h1>Desarrollo</h1>
+  <p>
+    Fotografía y Diseño
+  </p>
+   
+  {% for elemento in fotos %}
+      {% include 'components/project.njk' %}
+  {% endfor %}
+
+</div>
